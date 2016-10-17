@@ -5,7 +5,7 @@
 ** Login   <Tamsi@epitech.net>
 ** 
 ** Started on  Wed Oct  5 18:57:10 2016 Tamsi Besson
-** Last update Thu Oct  6 09:46:24 2016 Tamsi Besson
+** Last update Mon Oct 17 23:15:34 2016 Tamsi Besson
 */
 
 int     my_print_comb()
@@ -13,7 +13,7 @@ int     my_print_comb()
   char  a;
   char  b;
   char  c;
-  
+
   a = 48;
   while (a <= 55)
     {
@@ -30,7 +30,6 @@ int     my_print_comb()
         }
       a = a + 1;
     }
-  
 }
 
 void    my_comb_printer(int a, int b, int c)

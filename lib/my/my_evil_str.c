@@ -5,7 +5,7 @@
 ** Login   <Tamsi@epitech.net>
 ** 
 ** Started on  Thu Oct  6 18:48:08 2016 Tamsi Besson
-** Last update Sat Oct  8 21:01:53 2016 Tamsi Besson
+** Last update Mon Oct 17 23:18:25 2016 Tamsi Besson
 */
 
 char    *my_evil_str(char *str)
@@ -13,7 +13,7 @@ char    *my_evil_str(char *str)
   int   i;
   int   j;
   char lettre;
-  
+
   i = 0;
   j = my_strlen(str) - 1;
   while (i < j)

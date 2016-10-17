@@ -5,7 +5,7 @@
 ** Login   <Tamsi@epitech.net>
 ** 
 ** Started on  Fri Oct  7 18:53:17 2016 Tamsi Besson
-** Last update Tue Oct 11 13:01:09 2016 Tamsi Besson
+** Last update Mon Oct 17 23:17:26 2016 Tamsi Besson
 */
 
 int     my_power_it(int nb, int p)
@@ -18,7 +18,7 @@ int     my_power_it(int nb, int p)
           if (nb < 0)
             {
               return (0);
-            }       
+            }
           p = p - 1;
         }
     }

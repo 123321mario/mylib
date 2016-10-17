@@ -5,7 +5,7 @@
 ** Login   <Tamsi@epitech.net>
 ** 
 ** Started on  Mon Oct 10 11:11:23 2016 Tamsi Besson
-** Last update Tue Oct 11 22:46:53 2016 Tamsi Besson
+** Last update Mon Oct 17 23:16:24 2016 Tamsi Besson
 */
 
 char    *my_strstr(char *str, char *to_find)
@@ -25,6 +25,6 @@ char    *my_strstr(char *str, char *to_find)
     }
   else
     {
-      return("=>NULL POINTER RETURNED<=\n");
+      return ("=>NULL POINTER RETURNED<=\n");
     }
 }

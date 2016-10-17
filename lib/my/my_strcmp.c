@@ -5,26 +5,26 @@
 ** Login   <Tamsi@epitech.net>
 ** 
 ** Started on  Mon Oct 10 13:33:32 2016 Tamsi Besson
-** Last update Tue Oct 11 23:06:19 2016 Tamsi Besson
+** Last update Mon Oct 17 23:14:06 2016 Tamsi Besson
 */
 
 
 
-int     my_strcmp(char *s1, char *s2)
+int     my_strcmp(char *str_left, char *str_right)
 {
   int   i;
 
   i = 0;
-  while(s1[i] == s2[i] && s1[i] && s2[i])
+  while (str_left[i] == str_right[i] && str_left[i] && str_right[i])
     {
       i = i + 1;
     }
-  if(s1[i] == '\0' && s2[i] == '\0')
+  if (str_left[i] == '\0' && str_right[i] == '\0')
     {
       return (0);
     }
   else
     {
-      return (s1[i] - s2[i]);
+      return (str_left[i] - str_right[i]);
     }
 }

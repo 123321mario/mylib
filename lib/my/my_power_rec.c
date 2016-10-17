@@ -5,13 +5,13 @@
 ** Login   <Tamsi@epitech.net>
 ** 
 ** Started on  Fri Oct  7 21:12:33 2016 Tamsi Besson
-** Last update Mon Oct 10 23:34:06 2016 Tamsi Besson
+** Last update Mon Oct 17 23:18:01 2016 Tamsi Besson
 */
 
 int     my_power_rec(int nb, int p)
 {
   int   result;
-  
+
   if (p >= 1)
     {
       result = nb * my_power_rec(nb, p - 1);

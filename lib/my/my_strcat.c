@@ -5,7 +5,7 @@
 ** Login   <Tamsi@epitech.net>
 ** 
 ** Started on  Wed Oct 12 11:17:37 2016 Tamsi Besson
-** Last update Wed Oct 12 20:29:31 2016 Tamsi Besson
+** Last update Mon Oct 17 23:27:27 2016 Tamsi Besson
 */
 
 char    *my_strcat(char *dest, char *src)
@@ -15,7 +15,7 @@ char    *my_strcat(char *dest, char *src)
 
   len = my_strlen(dest);
   i = 0;
-  while(src[i])
+  while (src[i])
     {
       dest[len + i] = src[i];
       i = i + 1;

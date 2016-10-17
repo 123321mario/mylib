@@ -5,7 +5,7 @@
 ** Login   <Tamsi@epitech.net>
 ** 
 ** Started on  Thu Oct 13 22:01:53 2016 Tamsi Besson
-** Last update Sun Oct 16 21:36:54 2016 Tamsi Besson
+** Last update Mon Oct 17 23:31:07 2016 Tamsi Besson
 */
 
 char    *my_getnbr_base(char *nbr, char *base_from)
@@ -16,7 +16,7 @@ char    *my_getnbr_base(char *nbr, char *base_from)
   int   j;
   int   total;
   int   base;
-  
+
   neg = 1;
   i = my_strlen(nbr) - 1;
   power = 1;

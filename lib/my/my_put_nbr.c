@@ -5,7 +5,7 @@
 ** Login   <Tamsi@epitech.net>
 ** 
 ** Started on  Thu Oct  6 12:07:02 2016 Tamsi Besson
-** Last update Fri Oct  7 15:04:22 2016 Tamsi Besson
+** Last update Mon Oct 17 23:29:55 2016 Tamsi Besson
 */
 
 int     my_put_nbr(int nb)
@@ -18,24 +18,19 @@ int     my_put_nbr(int nb)
   temp = nb;
   i = 0;
   if (nb < 0)
-    {
-      temp = -temp;
-    }
+    temp = -temp;
   while (temp / 10 > 0)
     {
-      letter = (temp % 10) + 48;                                                                        
+      letter = (temp % 10) + 48;
       number[i] = letter;
       temp = temp / 10;
       i = i + 1;
     }
-
   letter = (temp % 10) + 48;
   number[i] = letter;
 
   if (nb < 0)
-    {
-      my_putchar('-');
-    }
+    my_putchar('-');
   while (i >= 0)
     {
       my_putchar (number[i]);

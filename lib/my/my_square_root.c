@@ -5,14 +5,14 @@
 ** Login   <Tamsi@epitech.net>
 ** 
 ** Started on  Sat Oct  8 23:14:46 2016 Tamsi Besson
-** Last update Mon Oct 17 22:52:48 2016 Tamsi Besson
+** Last update Mon Oct 17 23:27:48 2016 Tamsi Besson
 */
 
 int     my_square_root(int nb)
 {
   int i;
   int square;
-  
+
   i = 0;
   square = 0;
   while (square <= nb)
@@ -28,6 +28,5 @@ int     my_square_root(int nb)
         }
       i = i + 1;
     }
-  
   return (0);
 }

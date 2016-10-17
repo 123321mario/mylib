@@ -5,13 +5,13 @@
 ** Login   <Tamsi@epitech.net>
 ** 
 ** Started on  Fri Oct  7 18:53:17 2016 Tamsi Besson
-** Last update Mon Oct 10 21:28:06 2016 Tamsi Besson
+** Last update Mon Oct 17 23:31:21 2016 Tamsi Besson
 */
 
 int     my_fact_it(int nb)
 {
   int   i;
-  
+
   i = nb - 1;
   if (nb > 0 && nb < 13)
     {

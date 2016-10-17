@@ -5,7 +5,7 @@
 ** Login   <Tamsi@epitech.net>
 ** 
 ** Started on  Sun Oct 16 19:01:33 2016 Tamsi Besson
-** Last update Mon Oct 17 23:09:41 2016 Tamsi Besson
+** Last update Mon Oct 17 23:34:38 2016 Tamsi Besson
 */
 
 #include <my.h>
@@ -20,27 +20,19 @@ void    show_line(char *str, int size)
   while (i < size)
     {
       if (str[i] < 16)
-        {
-          my_putchar('0');
-        }
+	my_putchar('0');
       my_putnbr_base(str[i], "0123456789ABCDEF");
       if (i % 2 == 1)
-        {
-          my_putchar(' ');
-        }
+	my_putchar(' ');
       i = i + 1;
     }
   i = 0;
   while (i < size)
     {
       if (is_printable(str[i]))
-        {
-          my_putchar(str[i]);
-        }
+	my_putchar(str[i]);
       else
-        {
-          my_putchar('.');
-        }
+	my_putchar('.');
       i = i + 1;
     }
   my_putchar('\n');

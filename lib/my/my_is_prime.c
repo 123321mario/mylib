@@ -5,7 +5,7 @@
 ** Login   <Tamsi@epitech.net>
 ** 
 ** Started on  Sat Oct  8 23:32:26 2016 Tamsi Besson
-** Last update Sun Oct 16 18:22:27 2016 Tamsi Besson
+** Last update Mon Oct 17 23:32:40 2016 Tamsi Besson
 */
 
 int     my_is_prime(int nb)
@@ -33,5 +33,5 @@ int     my_is_prime(int nb)
   else
     {
       return (0);
-    } 
+    }
 }

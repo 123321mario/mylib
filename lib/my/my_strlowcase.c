@@ -8,15 +8,15 @@
 ** Last update Tue Oct 11 21:42:51 2016 Tamsi Besson
 */
 
-char	*my_strlowcase(char *str)
+char    *my_strlowcase(char *str)
 {
-  char	*ret;
+  char  *ret;
 
   ret = str;
   while (*str)
     {
       if (*str > 64 && *str < 91)
-	*str += 32;
+        *str += 32;
       ++str;
     }
   return (ret);

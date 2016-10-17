@@ -8,9 +8,9 @@
 ** Last update Tue Oct 11 21:37:36 2016 Tamsi Besson
 */
 
-char	*my_strcpy(char *dest, char *src)
+char    *my_strcpy(char *dest, char *src)
 {
-  int	i;
+  int   i;
 
   i = 0;
   while (src[i] != '\0')

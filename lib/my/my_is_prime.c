@@ -8,10 +8,10 @@
 ** Last update Sun Oct 16 18:22:27 2016 Tamsi Besson
 */
 
-int	my_is_prime(int nb)
+int     my_is_prime(int nb)
 {
-  int	i;
-  int	j;
+  int   i;
+  int   j;
 
   i = 0;
   j = 0;
@@ -22,9 +22,9 @@ int	my_is_prime(int nb)
   while (i != nb)
     {
       if (nb / 1)
-	{
-	  j = j + 1;
-	}
+        {
+          j = j + 1;
+        }
     }
   if (j == 2)
     {

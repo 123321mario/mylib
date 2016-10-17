@@ -8,7 +8,7 @@
 ** Last update Sat Oct  8 20:57:00 2016 Tamsi Besson
 */
 
-int	display(int x)
+int     display(int x)
 {
   char letter1;
   char letter2;
@@ -21,10 +21,10 @@ int	display(int x)
   return (0);
 }
 
-int	my_print_comb2()
+int     my_print_comb2()
 {
-  int	a;
-  int	b;
+  int   a;
+  int   b;
 
   a = 0;
   b = 1;
@@ -32,17 +32,17 @@ int	my_print_comb2()
     {
       b = a + 1;
       while (b < 100)
-	{
-	  display(a);
-	  my_putchar(' ');
-	  display(b);
-	  if (a != 98 || b != 99)
-	    {
-	      my_putchar (',');
-	      my_putchar (' ');
-	    }
-	  b = b + 1;
-	}
+        {
+          display(a);
+          my_putchar(' ');
+          display(b);
+          if (a != 98 || b != 99)
+            {
+              my_putchar (',');
+              my_putchar (' ');
+            }
+          b = b + 1;
+        }
       a = a + 1;
     }
 }

@@ -8,12 +8,12 @@
 ** Last update Fri Oct  7 15:04:22 2016 Tamsi Besson
 */
 
-int	my_put_nbr(int nb)
+int     my_put_nbr(int nb)
 {
-  int	temp;
-  int	i;
-  char	letter;
-  char	number[11];
+  int   temp;
+  int   i;
+  char  letter;
+  char  number[11];
 
   temp = nb;
   i = 0;

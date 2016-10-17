@@ -8,19 +8,19 @@
 ** Last update Tue Oct 11 23:27:44 2016 Tamsi Besson
 */
 
-int	my_isprintable(char c)
+int     my_isprintable(char c)
 {
   return (c >= ' ' && c <= '~');
 }
 
-int	my_str_isprintable(char *str)
+int     my_str_isprintable(char *str)
 {
   while (*str)
     {
       if (!my_isprintable(*str))
-	{
-	  return (0);
-	}
+        {
+          return (0);
+        }
       str++;
     }
   return (1);

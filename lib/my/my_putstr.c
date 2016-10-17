@@ -8,9 +8,9 @@
 ** Last update Fri Oct  7 17:27:36 2016 Tamsi Besson
 */
 
-int	my_putstr(char *str)
+int     my_putstr(char *str)
 {
-  int	i;
+  int   i;
 
   i = 0;
   while (str[i] != '\0')

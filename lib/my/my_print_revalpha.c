@@ -8,9 +8,9 @@
 ** Last update Thu Oct  6 09:44:54 2016 Tamsi Besson
 */
 
-int	my_print_revalpha()
+int     my_print_revalpha()
 {
-  char	alphabet;
+  char  alphabet;
 
   alphabet = 122;
   while (alphabet > 96)

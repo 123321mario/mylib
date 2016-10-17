@@ -8,12 +8,12 @@
 ** Last update Sun Oct 16 18:58:54 2016 Tamsi Besson
 */
 
-void	my_sort_int_tab(int* tab, int size)
+void    my_sort_int_tab(int* tab, int size)
 {
-  int	i;
-  int	j;
-  int	min;
-  int	temp;
+  int   i;
+  int   j;
+  int   min;
+  int   temp;
 
   i = 0;
   j = 0;
@@ -21,13 +21,13 @@ void	my_sort_int_tab(int* tab, int size)
   while(i < size)
     {
       while(j < size)
-	{
-	  if(tab[j] < tab[min])
-	    {
-	      min = j;
-	    }
-	  j = j + 1;
-	}
+        {
+          if(tab[j] < tab[min])
+            {
+              min = j;
+            }
+          j = j + 1;
+        }
       temp = tab[i];
       tab[i] = tab[min];
       tab[min] = temp;

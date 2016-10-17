@@ -8,9 +8,9 @@
 ** Last update Tue Oct 11 21:38:52 2016 Tamsi Besson
 */
 
-char	*my_strcapitalize(char *str)
+char    *my_strcapitalize(char *str)
 {
-  int	i;
+  int   i;
 
   i = 1;
   if (str[0] >= 97 && str[0] <= 122)
@@ -18,12 +18,12 @@ char	*my_strcapitalize(char *str)
   while (str[i] != '\0')
     {
       if (str[i] <= 'Z' && str[i] >= 'A')
-	str[i] = str[i] + 32;
+        str[i] = str[i] + 32;
       if (str[i - 1] >= 23 && str[i - 1] <= 47 || str[i - 1] == ';')
-	{
-	  if (str[i] <= 'z' && str[i] >= 'a')
-	    str[i] = str[i] - 32;
-	}
+        {
+          if (str[i] <= 'z' && str[i] >= 'a')
+            str[i] = str[i] - 32;
+        }
       i = i + 1;
     }
   return (str);

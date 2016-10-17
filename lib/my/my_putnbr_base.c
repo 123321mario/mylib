@@ -8,11 +8,11 @@
 ** Last update Sun Oct 16 20:44:32 2016 Tamsi Besson
 */
 
-char	*my_putnbr_base(int nbr, char *base_to)
+char    *my_putnbr_base(int nbr, char *base_to)
 {
-  int	base;
-  int	i;
-  char	*result;
+  int   base;
+  int   i;
+  char  *result;
 
   i = 0;
   base = my_strlen(base_to);
@@ -20,13 +20,13 @@ char	*my_putnbr_base(int nbr, char *base_to)
   while (nbr != 0)
     {
       if ((nbr % base) < 10)
-	{
-	  result[i] = (nbr % base) + 48;
-	}
+        {
+          result[i] = (nbr % base) + 48;
+        }
       else
-	{
-	  result[i] = (nbr % base) + 55;
-	}
+        {
+          result[i] = (nbr % base) + 55;
+        }
       i = i + 1;
       nbr = nbr / base;
     }

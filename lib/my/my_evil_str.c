@@ -8,10 +8,10 @@
 ** Last update Sat Oct  8 21:01:53 2016 Tamsi Besson
 */
 
-char	*my_evil_str(char *str)
+char    *my_evil_str(char *str)
 {
-  int	i;
-  int	j;
+  int   i;
+  int   j;
   char lettre;
   
   i = 0;

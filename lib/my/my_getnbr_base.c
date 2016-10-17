@@ -8,14 +8,14 @@
 ** Last update Sun Oct 16 21:36:54 2016 Tamsi Besson
 */
 
-char	*my_getnbr_base(char *nbr, char *base_from)
+char    *my_getnbr_base(char *nbr, char *base_from)
 {
-  int	power;
-  int	i;
-  int	neg;
-  int	j;
-  int	total;
-  int	base;
+  int   power;
+  int   i;
+  int   neg;
+  int   j;
+  int   total;
+  int   base;
   
   neg = 1;
   i = my_strlen(nbr) - 1;
@@ -30,25 +30,25 @@ char	*my_getnbr_base(char *nbr, char *base_from)
   return (total * neg);
 }
 
-int	get_total(char *nbr, int base, int i, int power)
+int     get_total(char *nbr, int base, int i, int power)
 {
-  int	total;
-  int	nb;
+  int   total;
+  int   nb;
 
   nb = 0;
   total = 0;
   while (i >= 0)
     {
       if (nbr[i] < 58  && nbr[i] > 47)
-	{
-	  nb = nbr[i] - 48;
-	}
+        {
+          nb = nbr[i] - 48;
+        }
       else
-	{
-	  nb = nbr[i] - 55;
-	}
+        {
+          nb = nbr[i] - 55;
+        }
       if (nb > base)
-	return (0);
+        return (0);
       nb = nb * power;
       total = total + nb;
       i = i - 1;

@@ -8,11 +8,11 @@
 ** Last update Fri Oct 14 00:20:30 2016 Tamsi Besson
 */
 
-char	*from_dec(int nbr, char *base_to)
+char    *from_dec(int nbr, char *base_to)
 {
-  int	base;
-  int	i;
-  char	*result;
+  int   base;
+  int   i;
+  char  *result;
 
   i = 0;
   base = my_strlen(base_to);
@@ -20,13 +20,13 @@ char	*from_dec(int nbr, char *base_to)
   while (nbr != 0)
     {
       if ((nbr % base) < 10)
-	{
-	  result[i] = (nbr % base) + 48;
-	}
+        {
+          result[i] = (nbr % base) + 48;
+        }
       else
-	{
-	  result[i] = (nbr % base) + 55;
-	}
+        {
+          result[i] = (nbr % base) + 55;
+        }
       i = i + 1;
       nbr = nbr / base;
     }
@@ -34,14 +34,14 @@ char	*from_dec(int nbr, char *base_to)
   return (result);
 }
 
-char	*convert_base(char *nbr, char *base_from, char *base_to)
+char    *convert_base(char *nbr, char *base_from, char *base_to)
 {
-  int	power;
-  int	nb;
-  int	i;
-  int	total;
-  int	base;
-  char	*result;
+  int   power;
+  int   nb;
+  int   i;
+  int   total;
+  int   base;
+  char  *result;
 
   nb = 0;
   total = 0;
@@ -51,13 +51,13 @@ char	*convert_base(char *nbr, char *base_from, char *base_to)
   while (i >= 0)
     {
       if (nbr[i] < 58  && nbr[i] > 47)
-	{
-	  nb = nbr[i] - 48;
-	}
+        {
+          nb = nbr[i] - 48;
+        }
       else
-	{
-	  nb = nbr[i] - 55;
-	}
+        {
+          nb = nbr[i] - 55;
+        }
       nb = nb * power;
       total = total + nb;
       i = i - 1;

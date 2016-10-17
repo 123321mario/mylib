@@ -8,7 +8,7 @@
 ** Last update Fri Oct  7 15:46:19 2016 Tamsi Besson
 */
 
-int	my_putchar(char c)
+int     my_putchar(char c)
 {
   write (1, &c, 1);
 }

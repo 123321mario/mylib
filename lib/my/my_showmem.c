@@ -10,9 +10,9 @@
 
 #include <my.h>
 
-void	show_line(char *str, int size)
+void    show_line(char *str, int size)
 {
-  int	i;
+  int   i;
 
   my_putptr_base(str, "0123456789ABCDEF");
   my_putstr(": ");
@@ -20,35 +20,35 @@ void	show_line(char *str, int size)
   while(i < size)
     {
       if(str[i] < 16)
-	{
-	  my_putchar('0');
-	}
+        {
+          my_putchar('0');
+        }
       my_putnbr_base(str[i], "0123456789ABCDEF");
       if(i % 2 == 1)
-	{
-	  my_putchar(' ');
-	}
+        {
+          my_putchar(' ');
+        }
       i = i + 1;
     }
   i = 0;
   while(i < size)
     {
       if(is_printable(str[i]))
-	{
-	  my_putchar(str[i]);
-	}
+        {
+          my_putchar(str[i]);
+        }
       else
-	{
-	  my_putchar('.');
-	}
+        {
+          my_putchar('.');
+        }
       i = i + 1;
     }
   my_putchar('\n');
 }
 
-void	my_showmem(char *str, int size)
+void    my_showmem(char *str, int size)
 {
-  int	i;
+  int   i;
 
   i = 0;
   while(i < size)

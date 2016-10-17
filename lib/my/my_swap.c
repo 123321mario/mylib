@@ -8,9 +8,9 @@
 ** Last update Fri Oct  7 17:01:23 2016 Tamsi Besson
 */
 
-int	my_swap(int *a, int *b)
+int     my_swap(int *a, int *b)
 {
-  int	n;
+  int   n;
 
   n = *a;
   *a = *b;

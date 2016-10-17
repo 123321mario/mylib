@@ -8,9 +8,9 @@
 ** Last update Tue Oct 11 21:41:49 2016 Tamsi Besson
 */
 
-int	my_strlen(char *str)
+int     my_strlen(char *str)
 {
-  int	length;
+  int   length;
 
   length = 0;
   while (str[length] != '\0')

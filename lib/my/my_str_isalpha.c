@@ -8,12 +8,12 @@
 ** Last update Mon Oct 10 21:34:03 2016 Tamsi Besson
 */
 
-int	my_str_isalpha(char *str)
+int     my_str_isalpha(char *str)
 {
   while (*str)
     {
       if (!((*str > 64 && *str < 91) || (*str > 96 && *str < 123)))
-	return (0);
+        return (0);
       ++str;
     }
   return (1);

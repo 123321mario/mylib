@@ -8,7 +8,7 @@
 ** Last update Sun Oct 16 20:35:59 2016 Tamsi Besson
 */
 
-int	my_getnbr(char *str)
+int     my_getnbr(char *str)
 {
   return (my_getnbr_base(str, "0123456789"));
 }

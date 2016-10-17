@@ -8,19 +8,19 @@
 ** Last update Tue Oct 11 13:01:09 2016 Tamsi Besson
 */
 
-int	my_power_it(int nb, int p)
+int     my_power_it(int nb, int p)
 {
   if (p > 0)
     {
       while (p > 1)
-	{
-	  nb = nb * nb;
-	  if (nb < 0)
-	    {
-	      return (0);
-	    }	    
-	  p = p - 1;
-	}
+        {
+          nb = nb * nb;
+          if (nb < 0)
+            {
+              return (0);
+            }       
+          p = p - 1;
+        }
     }
   else if (p == 0)
     {

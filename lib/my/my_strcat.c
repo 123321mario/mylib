@@ -8,10 +8,10 @@
 ** Last update Wed Oct 12 20:29:31 2016 Tamsi Besson
 */
 
-char	*my_strcat(char *dest, char *src)
+char    *my_strcat(char *dest, char *src)
 {
-  int	len;
-  int	i;
+  int   len;
+  int   i;
 
   len = my_strlen(dest);
   i = 0;

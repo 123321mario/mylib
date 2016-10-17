@@ -8,9 +8,9 @@
 ** Last update Thu Oct  6 09:44:40 2016 Tamsi Besson
 */
 
-int	my_print_alpha()
+int     my_print_alpha()
 {
-  char	alphabet;
+  char  alphabet;
 
   alphabet = 97;
   while (alphabet < 123)

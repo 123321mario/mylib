@@ -8,7 +8,7 @@
 ** Last update Thu Oct  6 20:07:54 2016 Tamsi Besson
 */
 
-int	my_isneg(int n)
+int     my_isneg(int n)
 {
   if (n < 0)
     {

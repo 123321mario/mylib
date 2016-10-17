@@ -8,11 +8,11 @@
 ** Last update Tue Oct 11 19:04:50 2016 Tamsi Besson
 */
 
-char	*my_revstr(char *str)
+char    *my_revstr(char *str)
 {
-  int	i;
-  int	j;
-  char	letter;
+  int   i;
+  int   j;
+  char  letter;
 
   i = 0;
   j = my_strlen(str) - 1;

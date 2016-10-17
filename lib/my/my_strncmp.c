@@ -8,14 +8,14 @@
 ** Last update Tue Oct 11 23:05:13 2016 Tamsi Besson
 */
 
-int	my_strncmp(char *s1, char *s2, int n)
+int     my_strncmp(char *s1, char *s2, int n)
 {
   while (*s1 && n > 0)
     {
       if (*s1 < *s2)
-	return (-1);
+        return (-1);
       else if (*s1 > *s2)
-	return (1);
+        return (1);
       s1++;
       s2++;
       n--;

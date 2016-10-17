@@ -8,32 +8,32 @@
 ** Last update Thu Oct  6 09:46:24 2016 Tamsi Besson
 */
 
-int	my_print_comb()
+int     my_print_comb()
 {
-  char	a;
-  char	b;
-  char	c;
+  char  a;
+  char  b;
+  char  c;
   
   a = 48;
   while (a <= 55)
     {
       b = a + 1;
       while (b <= 56)
-	{
-	  c = b + 1;
-	  while (c <= 57)
-	    {
-	      my_comb_printer(a, b, c);
-	      c = c + 1;
-	    }
-	  b = b + 1;
-	}
+        {
+          c = b + 1;
+          while (c <= 57)
+            {
+              my_comb_printer(a, b, c);
+              c = c + 1;
+            }
+          b = b + 1;
+        }
       a = a + 1;
     }
   
 }
 
-void	my_comb_printer(int a, int b, int c)
+void    my_comb_printer(int a, int b, int c)
 {
   if (a == 55 && b == 56 && c == 57)
     {

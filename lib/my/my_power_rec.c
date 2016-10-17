@@ -8,21 +8,21 @@
 ** Last update Mon Oct 10 23:34:06 2016 Tamsi Besson
 */
 
-int	my_power_rec(int nb, int p)
+int     my_power_rec(int nb, int p)
 {
-  int	result;
+  int   result;
   
   if (p >= 1)
     {
       result = nb * my_power_rec(nb, p - 1);
       if (result < 0)
-	{
-	  return (0);
-	}
+        {
+          return (0);
+        }
       else
-	{
-	  return (result);
-	}
+        {
+          return (result);
+        }
     }
   else if (p == 0)
     {

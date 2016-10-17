@@ -8,9 +8,9 @@
 ** Last update Thu Oct  6 09:45:28 2016 Tamsi Besson
 */
 
-int	my_print_digits()
+int     my_print_digits()
 {
-  char	digit;
+  char  digit;
 
   digit = 48;
   while (digit < 58)

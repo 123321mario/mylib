@@ -8,18 +8,18 @@
 ** Last update Mon Oct 10 21:28:06 2016 Tamsi Besson
 */
 
-int	my_fact_it(int nb)
+int     my_fact_it(int nb)
 {
-  int	i;
+  int   i;
   
   i = nb - 1;
   if (nb > 0 && nb < 13)
     {
       while (i != 0)
-	{
-	  nb = nb * i;
-	  i = i - 1;
-	}
+        {
+          nb = nb * i;
+          i = i - 1;
+        }
     }
   else if (nb == 0)
     {

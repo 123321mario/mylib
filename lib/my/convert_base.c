@@ -51,9 +51,9 @@ char    *convert_base(char *nbr, char *base_from, char *base_to)
   while (i >= 0)
     {
       if (nbr[i] < 58  && nbr[i] > 47)
-	nb = nbr[i] - 48;
+        nb = nbr[i] - 48;
       else
-	nb = nbr[i] - 55;
+        nb = nbr[i] - 55;
       nb = nb * power;
       total = total + nb;
       i = i - 1;

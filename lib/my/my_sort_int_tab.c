@@ -5,7 +5,7 @@
 ** Login   <Tamsi@epitech.net>
 ** 
 ** Started on  Sun Oct 16 18:58:23 2016 Tamsi Besson
-** Last update Sun Oct 16 18:58:54 2016 Tamsi Besson
+** Last update Mon Oct 17 23:10:44 2016 Tamsi Besson
 */
 
 void    my_sort_int_tab(int* tab, int size)
@@ -18,11 +18,11 @@ void    my_sort_int_tab(int* tab, int size)
   i = 0;
   j = 0;
   min = 0;
-  while(i < size)
+  while (i < size)
     {
-      while(j < size)
+      while (j < size)
         {
-          if(tab[j] < tab[min])
+          if (tab[j] < tab[min])
             {
               min = j;
             }
